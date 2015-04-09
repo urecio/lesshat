@@ -142,7 +142,7 @@ var keyframes = function keyframes(value) {
     }
 
   }
-
+  value += "}\n lh-keyframes-noop { -lh-keyframes-noop: noop"
   return value;
 };
 
